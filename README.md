@@ -26,5 +26,14 @@
 
 <h2>Paso a Paso</h2>
 
-* Primero crearemos una carpeta en la ruta que instalamos el XAMPP, carpeta htdocs, 
-* Segundo elemento de la lista
+* 1 Crearemos una carpeta en la ruta que instalamos el XAMPP, carpeta htdocs, llamada proyectosLaravel por ejemplo.
+* 2 Descargaremos o clonaremos este repositorio en la carpeta recien creada.
+* 3 Debemos arrancar el Apache y MySql desde el controlPanel de XAMPP.
+* 4 Dirigirnos a http://localhost/phpmyadmin/ y crear la base de datos Laravel.
+* 5 Abrir una terminal de comandos, ejecutar la linea ¨cd (aca va la ruta donde habiamos clonado o descargado el repo)¨.
+* 6 Ejecutar la linea ¨composer install¨.
+* 7 Dentro de la carpeta del proyecto duplicar el archivo ¨.env.example¨ y renombrarlo a ¨.env¨.
+* 8 Volver a la terminal de comandos y ejecutar la siguiente ¨php artisan key:generate¨.
+* 9 Ejecutar el comando ¨php artisan migrate:refresh --seed¨ para importar la base de datos con sus respectivos SEEDS.
+* 10 Ejecutar el comando ¨npm install¨ para instalar dependencias.
+* 
