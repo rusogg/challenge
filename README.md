@@ -1,4 +1,16 @@
-<h1>Challenge GreenFlame</h1>
+<h1 align="center">Challenge GreenFlame</h1>
+
+##Índice
+
+*[Título e imagen de portada](#Título-e-imagen-de-portada)
+
+*[Insignias](#insignias)
+
+*[Índice](#índice)
+
+*[Descripción del proyecto](#descripción-del-proyecto)
+
+*[Estado del proyecto](#Estado-del-proyecto)
 
 ## Instalacion
 
