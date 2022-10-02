@@ -11,11 +11,13 @@
 
 
 <h2>Versiones</h2>
+
 * Laravel 9
 * Php 8.1
 
 
 <h2>Requerimientos</h2>
+
 - ** [Xampp con php 8.1](https://www.apachefriends.org/es/index.html)**
 - ** [Composer](https://getcomposer.org/download/)****
 - ** [Node](https://nodejs.org/en/download/)**
