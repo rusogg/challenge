@@ -98,7 +98,13 @@ class CreateUpdate extends Component
         $discounts->end_date = $request->post('hastaGeneral');
         $discounts->save();
 
-        $discount_ranges = new Discount_ranges();
+        $discount_ranges = Discount_ranges::all();
+
+        foreach ($discount_ranges as $discount_ranges){
+                if($discount_ranges->discount_id == $id){
+                    $ArrayIds[] = $discount_ranges->id;}
+                    }
+        $discount_ranges = Discount_ranges::find($ArrayIds[0]);
         $discount_ranges->discount_id = Discounts::latest('id')->first()->id;
         $discount_ranges->from_days = $request->post('desde');
         $discount_ranges->to_days = $request->post('hasta');
@@ -106,7 +112,7 @@ class CreateUpdate extends Component
         $discount_ranges->discount = $request->post('descuento');
         $discount_ranges->save();
 
-        $discount_ranges = new Discount_ranges();
+        $discount_ranges = Discount_ranges::find($ArrayIds[1]);
         $discount_ranges->discount_id = Discounts::latest('id')->first()->id;
         $discount_ranges->from_days = $request->post('desde2');
         $discount_ranges->to_days = $request->post('hasta2');
@@ -114,7 +120,7 @@ class CreateUpdate extends Component
         $discount_ranges->discount = $request->post('descuento2');
         $discount_ranges->save();
 
-        $discount_ranges = new Discount_ranges();
+        $discount_ranges = Discount_ranges::find($ArrayIds[2]);
         $discount_ranges->discount_id = Discounts::latest('id')->first()->id;
         $discount_ranges->from_days = $request->post('desde3');
         $discount_ranges->to_days = $request->post('hasta3');
