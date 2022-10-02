@@ -1,7 +1,7 @@
 <div>
     <div class="card">
         <div class="card-header">
-         Actualizar
+         {{trans('messages.Actualizar')}}
         </div>
         <div class="card-body">
           <p class="card-text">
@@ -42,7 +42,7 @@
                     <div class="col-6">
                       <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" name="activo" id="activo" @if($discount->active == 1) checked @endif>
-                        <label class="form-check-label" for="flexSwitchCheckDefault">Activado/desactivado</label>
+                        <label class="form-check-label" for="flexSwitchCheckDefault">{{trans('messages.ActivadoDesactivado')}}</label>
                       </div>
                     </div>
                   </div>
@@ -96,7 +96,7 @@
                   </div>
                   <div class="row mb-3">
                     <div class="col-4">
-                      <h2>Periodo Aplicacion 1</h2>
+                      <h2>{{trans('messages.PeriodoAplicaion')}} 1</h2>
                       <div class="row mb-3">
                         <div class="col-6">
                           <input type="number" value="{{$ArrayFrom[0]}}" name="desde"  class="form-control" >
@@ -137,7 +137,7 @@
                       </div>
                     </div>
                     <div class="col-4">
-                      <h2>Periodo Aplicacion 2</h2>
+                      <h2>{{trans('messages.PeriodoAplicaion')}} 2</h2>
                       <div class="row mb-3">
                         <div class="col-6">
                           <input type="number" value="{{$ArrayFrom[1]}}" name="desde2" class="form-control" >
@@ -172,7 +172,7 @@
                       </div>
                     </div>
                     <div class="col-4">
-                      <h2>Periodo Aplicacion 3</h2>
+                      <h2>{{trans('messages.PeriodoAplicaion')}} 3</h2>
                       <div class="row mb-3">
                         <div class="col-6">
                           <input type="number" value="{{$ArrayFrom[2]}}" name="desde3" class="form-control">
@@ -209,7 +209,7 @@
                   </div>
                   <br>
                   <div class="col-4">
-                    <h2>Periodo</h2>
+                    <h2>{{trans('messages.Periodo')}}</h2>
                     <div class="row mb-3">
                       <div class="col-6">
                         <input type="date"   value={{$discount->start_date}} name="desdeGeneral" class="form-control" > 
@@ -230,8 +230,8 @@
                     </div>
                   </div>
                   <br>
-                  <a href="{{route("descuentos.principal")}}" class="btn btn-secondary">Volver</a>
-                  <button class="btn btn-warning">Actualizar</button>
+                  <a href="{{route("descuentos.principal")}}" class="btn btn-secondary">{{trans('messages.Volver')}}</a>
+                  <button class="btn btn-warning">{{trans('messages.Actualizar')}}</button>
                 
             </form>
           </p>

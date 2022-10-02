@@ -1,0 +1,27 @@
+<?php
+return[
+'Descuentos' => 'Discounts',
+'DescripcionDescuentos' => 'In this sectio you can see and configure discounts in the site',
+'AgregarDescuento' => 'Insert Discount',
+'AgregarNuevo' => 'Insert New',
+'Agregar' => 'Insert',
+'Volver' => 'back',
+'Nombre' => 'Name',
+'Prioridad' => 'Priority',
+'PeriodoAplicaion' => 'Period of aplication',
+'Desde' => 'From',
+'Hasta' => 'To',
+'CodigoDescuento' => 'Code of discount AWD/BCD',
+'Porcentaje' => 'Porcent of discount GSA',
+'ActivadoDesactivado' => 'Able/Disable',
+'Actualizar' => 'Update',
+'Borrar' => 'Delete',
+'Borrado' => 'Succes when delete!',
+'Actualizado' => 'Succes when delete Update!',
+'Agregado' => 'Succes when insert!',
+'Ingresar' => 'login',
+'Correo' => 'Email',
+'Clave' => 'Password',
+'Periodo' => 'Period',
+'BorrarMensaje' => 'Are you sure to eliminate this discount!?'
+];

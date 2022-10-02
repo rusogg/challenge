@@ -28,27 +28,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 1
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 1
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 1
             
         ]);
@@ -64,27 +64,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 2
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 2
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 2
             
         ]);
@@ -100,27 +100,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 3
             
         ]);
@@ -136,27 +136,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 4
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 4
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 4
             
         ]);
@@ -172,27 +172,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 5
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 5
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 5
             
         ]);
@@ -208,27 +208,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 6
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 6
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 6
             
         ]);
@@ -244,27 +244,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 7
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB2',
             'discount_id' => 7
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 7
             
         ]);
@@ -280,27 +280,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 8
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 8
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 8
             
         ]);
@@ -316,27 +316,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 9
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 9
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 9
             
         ]);
@@ -352,33 +352,33 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 10
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 10
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 10
             
         ]);
 
-        DB::table('prueba11')->insert([
-            'name' => 'Avis',
+        DB::table('discounts')->insert([
+            'name' => 'prueba11',
             'start_date' => Carbon::parse('2022-01-01'),
             'end_date' => Carbon::parse('2022-01-01'),
             'priority' => 1,
@@ -388,27 +388,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 11
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 11
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 11
             
         ]);
@@ -424,27 +424,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 12
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 12
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 12
             
         ]);
@@ -460,27 +460,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 13
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 13
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 13
             
         ]);
@@ -496,27 +496,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 14
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 14
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 14
             
         ]);
@@ -532,27 +532,27 @@ class Discounts_seeder extends Seeder
             'access_type_code' => 3
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 1,
-            'from_days' => 3,
+            'to_days' => 3,
             'discount' => 3,
-            'code' => AAAB24,
+            'code' => 'AAAB24',
             'discount_id' => 15
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 3,
-            'from_days' => 20,
+            'to_days' => 20,
             'discount' => 30,
-            'code' => AAAB25,
+            'code' => 'AAAB25',
             'discount_id' => 15
             
         ]);
-        DB::table('discounts_ranges')->insert([
+        DB::table('discount_ranges')->insert([
             'from_days' => 30,
-            'from_days' => 50,
+            'to_days' => 50,
             'discount' => 50,
-            'code' => AAAB26,
+            'code' => 'AAAB26',
             'discount_id' => 15
             
         ]);

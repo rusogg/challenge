@@ -20,12 +20,12 @@ class Access_typesSeeder extends Seeder
             'name' => 'Cliente Final',
             'display_order' => 2
         ]);
-        DB::table('access')->insert([
+        DB::table('access_types')->insert([
             'code' => 2,
             'name' => 'Agencia',
             'display_order' => 3
         ]);
-        DB::table('access')->insert([
+        DB::table('access_types')->insert([
             'code' => 3,
             'name' => 'Corporativo',
             'display_order' => 1

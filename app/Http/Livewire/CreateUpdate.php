@@ -125,7 +125,7 @@ class CreateUpdate extends Component
         
         
 
-        return redirect()->route("descuentos.principal")->with("success", "Actualizado con exito!");
+        return redirect()->route("descuentos.principal")->with("success", trans('messages.Actualizado'));
     }
 
     public function destroy($id)
@@ -140,7 +140,7 @@ class CreateUpdate extends Component
         
         
 
-        return redirect()->route("descuentos.principal")->with("success", "Eliminado con exito!");
+        return redirect()->route("descuentos.principal")->with("success", trans('messages.Borrado'));
     }
 
     public function show($id)

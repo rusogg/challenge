@@ -1,14 +1,14 @@
 <div>
     <div class="row">
-        <h1>Descuentos</h1>
-        <p>En esta sección podrá ver y configurar los descuentos que se aplican a todo el sitio</p>
+        <h1>{{trans('messages.Descuentos')}}</h1>
+        <p>{{trans('messages.DescripcionDescuentos')}}</p>
     </div>
     
     <br><br>
     
     <div class="card">
         <div class="card-header">
-            Lista
+            
         </div>
         <div class="card-body">
           <div class="row">
@@ -24,9 +24,8 @@
              
             </div>
           </div>
-          <h5 class="card-title">Listado</h5>
           <p>
-            <a href="{{route("formulario.create")}}" class="btn btn-primary">Agregar Descuento</a>
+            <a href="{{route("formulario.create")}}" class="btn btn-primary">{{trans('messages.AgregarDescuento')}}</a>
           </p>
           <hr>
           <p class="card-text">

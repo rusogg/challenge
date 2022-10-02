@@ -3,7 +3,7 @@
 @section('contenido')
 
 <div class="row">
-    <h1>Login</h1>
+    <h1>{{trans('messages.Ingresar')}}</h1>
 
 </div>
 
@@ -11,17 +11,17 @@
 
 <div class="card">
     <div class="card-header">
-        Login
+        {{trans('messages.Ingresar')}}
     </div>
     <div class="card-body">
        <form action="{{route('user.login')}}" method="POST">
             @csrf
-            <label for="">Correo</label>
+            <label for="">{{trans('messages.Correo')}}</label>
             <input type="email" name="email" class="form-control" required>
-            <label for="">Clave</label>
+            <label for="">{{trans('messages.Clave')}}</label>
             <input type="password" name="password" class="form-control" required>
             <br>
-            <button class="btn btn-primary">Login</button>
+            <button class="btn btn-primary">{{trans('messages.Ingresar')}}</button>
             
         </form>
             </div>     

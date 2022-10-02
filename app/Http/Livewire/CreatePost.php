@@ -129,7 +129,7 @@ class CreatePost extends Component
         
         
 
-        return redirect()->route("descuentos.principal")->with("success", "Agregado con Exito!");
+        return redirect()->route("descuentos.principal")->with("success", trans('messages.Agregado'));
     }
 
     

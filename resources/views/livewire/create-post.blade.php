@@ -10,7 +10,7 @@
                 @csrf
                 <div class="row mb-5">
                   <div class="col-6">
-                    <input type="text" name="nombre" placeholder="Nombre" wire:model="nombre" class="form-control" >
+                    <input type="text" name="nombre" placeholder="{{trans('messages.Nombre')}}" wire:model="nombre" class="form-control" >
                     @error('nombre')
                       <span>
                         {{$message}}
@@ -20,7 +20,7 @@
                   <div class="col-6">
                     <div class="form-check form-switch">
                       <input class="form-check-input" type="checkbox" role="switch" name="activo" id="activo">
-                      <label class="form-check-label" for="flexSwitchCheckDefault">Activado/desactivado</label>
+                      <label class="form-check-label" for="flexSwitchCheckDefault">{{trans('messages.ActivadoDesactivado')}}</label>
                     </div>
                   </div>
                 </div>
@@ -45,7 +45,7 @@
                     </select>
                   </div>
                   <div class="col-3">
-                    <input type="number" placeholder="Prioridad" wire:model="prioridad" name="prioridad" class="form-control" >
+                    <input type="number" placeholder="{{trans('messages.Prioridad')}}" wire:model="prioridad" name="prioridad" class="form-control" >
                     @error('prioridad')
                     <span>
                       {{$message}}
@@ -63,10 +63,10 @@
                 </div>
                 <div class="row mb-3">
                   <div class="col-4">
-                    <h2>Periodo Aplicacion 1</h2>
+                    <h2>{{trans('messages.PeriodoAplicaion')}} 1</h2>
                     <div class="row mb-3">
                       <div class="col-6">
-                        <input type="number" placeholder="Desde" name="desde" wire:model="desde" class="form-control" >
+                        <input type="number" placeholder="{{trans('messages.Desde')}}" name="desde" wire:model="desde" class="form-control" >
                         @error('desde')
                     <span>
                       {{$message}}
@@ -74,7 +74,7 @@
                   @enderror
                       </div>
                       <div class="col-6">
-                        <input type="hasta" placeholder="Hasta" name="hasta" wire:model="hasta" class="form-control mb-3" >
+                        <input type="hasta" placeholder="{{trans('messages.Hasta')}}" name="hasta" wire:model="hasta" class="form-control mb-3" >
                         @error('hasta')
                     <span>
                       {{$message}}
@@ -82,13 +82,13 @@
                   @enderror
                       </div>
                       <div class="col">
-                        <input type="text" placeholder="Codigo de descuento AWD/BCD" wire:model="codigo" name="codigo" class="form-control mb-2" >
+                        <input type="text" placeholder="{{trans('messages.CodigoDescuento')}}" wire:model="codigo" name="codigo" class="form-control mb-2" >
                         @error('codigo')
                     <span>
                       {{$message}}
                     </span>
                   @enderror
-                    <input type="number" name="descuento" wire:model="descuento" placeholder="Porcentaje de descuento GSA" class="form-control" >
+                    <input type="number" name="descuento" wire:model="descuento" placeholder="{{trans('messages.Porcentaje')}}" class="form-control" >
                     @error('descuento')
                     <span>
                       {{$message}}
@@ -104,10 +104,10 @@
                     </div>
                   </div>
                   <div class="col-4">
-                    <h2>Periodo Aplicacion 2</h2>
+                    <h2>{{trans('messages.PeriodoAplicaion')}} 2</h2>
                     <div class="row mb-3">
                       <div class="col-6">
-                        <input type="number" placeholder="Desde" wire:model="desde2" name="desde2" class="form-control" >
+                        <input type="number" placeholder="{{trans('messages.Desde')}}" wire:model="desde2" name="desde2" class="form-control" >
                         @error('desde2')
                     <span>
                       {{$message}}
@@ -115,7 +115,7 @@
                   @enderror
                       </div>
                       <div class="col-6">
-                        <input type="hasta" placeholder="Hasta" wire:model="hasta2" name="hasta2" class="form-control mb-3" >
+                        <input type="hasta" placeholder="{{trans('messages.Hasta')}}" wire:model="hasta2" name="hasta2" class="form-control mb-3" >
                         @error('hasta2')
                     <span>
                       {{$message}}
@@ -123,13 +123,13 @@
                   @enderror
                       </div>
                       <div class="col">
-                        <input type="text" placeholder="Codigo de descuento AWD/BCD" wire:model="codigo2" name="codigo2" class="form-control mb-2" >
+                        <input type="text" placeholder="C{{trans('messages.CodigoDescuento')}}" wire:model="codigo2" name="codigo2" class="form-control mb-2" >
                         @error('codigo2')
                     <span>
                       {{$message}}
                     </span>
                   @enderror
-                    <input type="number" name="descuento2" wire:model="descuento2" placeholder="Porcentaje de descuento GSA" class="form-control" >
+                    <input type="number" name="descuento2" wire:model="descuento2" placeholder="{{trans('messages.Porcentaje')}}" class="form-control" >
                     @error('descuento2')
                     <span>
                       {{$message}}
@@ -139,10 +139,10 @@
                     </div>
                   </div>
                   <div class="col-4">
-                    <h2>Periodo Aplicacion 3</h2>
+                    <h2>{{trans('messages.PeriodoAplicaion')}} 3</h2>
                     <div class="row mb-3">
                       <div class="col-6">
-                        <input type="number" placeholder="Desde" wire:model="desde3" name="desde3" class="form-control">
+                        <input type="number" placeholder="{{trans('messages.Desde')}}" wire:model="desde3" name="desde3" class="form-control">
                         @error('desde3')
                     <span>
                       {{$message}}
@@ -150,7 +150,7 @@
                   @enderror
                       </div>
                       <div class="col-6">
-                        <input type="hasta" placeholder="Hasta" wire:model="hasta3" name="hasta3" class="form-control mb-3" >
+                        <input type="hasta" placeholder="{{trans('messages.Hasta')}}" wire:model="hasta3" name="hasta3" class="form-control mb-3" >
                         @error('hasta3')
                     <span>
                       {{$message}}
@@ -158,13 +158,13 @@
                   @enderror
                       </div>
                       <div class="col">
-                        <input type="text" placeholder="Codigo de descuento AWD/BCD" wire:model="codigo3" name="codigo3" class="form-control mb-2">
+                        <input type="text" placeholder="{{trans('messages.CodigoDescuento')}}" wire:model="codigo3" name="codigo3" class="form-control mb-2">
                         @error('codigo3')
                     <span>
                       {{$message}}
                     </span>
                   @enderror
-                    <input type="number" name="descuento3" wire:model="descuento3" placeholder="Porcentaje de descuento GSA" class="form-control">
+                    <input type="number" name="descuento3" wire:model="descuento3" placeholder="{{trans('messages.Porcentaje')}}" class="form-control">
                     @error('descuento3')
                     <span>
                       {{$message}}
@@ -176,10 +176,10 @@
                 </div>
                 <br>
                 <div class="col-4">
-                  <h2>Periodo</h2>
+                  <h2>{{trans('messages.Periodo')}}</h2>
                   <div class="row mb-3">
                     <div class="col-6">
-                      <input type="date" placeholder="Desde" wire:model="desdeGeneral" name="desdeGeneral" class="form-control" >
+                      <input type="date"  wire:model="desdeGeneral" name="desdeGeneral" class="form-control" >
                       @error('desdeGeneral')
                     <span>
                       {{$message}}
@@ -187,7 +187,7 @@
                   @enderror
                     </div>
                     <div class="col-6">
-                      <input type="date" placeholder="Hasta" wire:model="hastaGeneral" name="hastaGeneral" class="form-control mb-3" >
+                      <input type="date"  wire:model="hastaGeneral" name="hastaGeneral" class="form-control mb-3" >
                       @error('hastaGeneral')
                     <span>
                       {{$message}}
@@ -197,8 +197,8 @@
                   </div>
                 </div>
                 <br>
-                <a href="{{route("descuentos.principal")}}" class="btn btn-secondary">Volver</a>
-                <button class="btn btn-primary">Agregar</button>
+                <a href="{{route("descuentos.principal")}}" class="btn btn-secondary">{{trans('messages.Volver')}}</a>
+                <button class="btn btn-primary">{{trans('messages.Agregar')}}</button>
                 
             </form>
           </p>

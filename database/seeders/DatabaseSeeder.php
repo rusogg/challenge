@@ -18,7 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call(UserSeeder::class);
         $this->call(Access_typesSeeder::class);
         $this->call(BrandsSeeder::class);
-        $this->call(Discounts_seeder::class);
         $this->call(RegionsSeeder::class);
+        $this->call(Discounts_seeder::class);
+        
     }
 }
