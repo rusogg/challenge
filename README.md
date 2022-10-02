@@ -2,27 +2,27 @@
 
 ##Índice
 
-[Versiones]
+[Versiones](#Versiones)
 
-[Requerimientos]
+[Requerimientos](#Requerimientos)
 
-[Paso a Paso]
+[Paso a Paso](#Paso-a-Paso)
 
 ## Instalacion
 
-(#Versiones)
+
 <h2>Versiones</h2>
 - **Laravel 9
 - **Php 8.1
 
-(#Requerimientos)
+
 <h2>Requerimientos</h2>
 - ** [Xampp con php 8.1](https://www.apachefriends.org/es/index.html)**
 - ** [Composer](https://getcomposer.org/download/)****
 - ** [Node](https://nodejs.org/en/download/)**
 
 
-(#Paso-a-Paso)
+
 <h2>Paso a Paso</h2>
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
