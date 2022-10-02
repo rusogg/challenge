@@ -11,8 +11,8 @@
 
 
 <h2>Versiones</h2>
-- **Laravel 9
-- **Php 8.1
+* Laravel 9
+* Php 8.1
 
 
 <h2>Requerimientos</h2>
@@ -24,5 +24,5 @@
 
 <h2>Paso a Paso</h2>
 
-* Primer elemento de la lista
+* Primero crearemos una carpeta en la ruta que instalamos el XAMPP, carpeta htdocs, 
 * Segundo elemento de la lista
