@@ -1,6 +1,6 @@
 <h1 align="center">Challenge GreenFlame</h1>
 
-##Índice
+## Índice
 
 [Versiones](#Versiones)
 
