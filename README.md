@@ -36,4 +36,5 @@
 * 8 Volver a la terminal de comandos y ejecutar la siguiente ¨php artisan key:generate¨.
 * 9 Ejecutar el comando ¨php artisan migrate:refresh --seed¨ para importar la base de datos con sus respectivos SEEDS.
 * 10 Ejecutar el comando ¨npm install¨ para instalar dependencias.
-* 
+* 11 Por ultimo ejecutar el comando ¨npm run dev¨ y abrir otra terminal de comandos en la misma direccion y ejecutar ¨php artisan serve¨.
+* 12 Dirigirse a http://127.0.0.1:8000/ y usar las credenciales de administrador correspondientes.
