@@ -23,6 +23,6 @@
 
 
 <h2>Paso a Paso</h2>
-- George Washington
-- John Adams
-- Thomas Jefferson
+
+* Primer elemento de la lista
+* Segundo elemento de la lista
